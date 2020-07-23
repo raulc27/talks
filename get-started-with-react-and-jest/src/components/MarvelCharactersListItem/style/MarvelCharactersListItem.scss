@@ -1,0 +1,5 @@
+.avatar__root {
+  composes: avatar__root from 'components/ListItemWithAvatar/style/ListItemWithAvatar.scss';
+  width: 80px;
+  height: 80px;
+}

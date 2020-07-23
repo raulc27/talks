@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItemWithAvatar /> Tests should render correctly 1`] = `
+<ListItem
+  style={
+    Object {
+      "container": "container",
+      "root": "root",
+    }
+  }
+>
+  <Avatar
+    src="https://avatars1.githubusercontent.com/u/819041?s=400&u=e1678422ed2e3d88571273fcfeedc8647ea0c282&v=4"
+    style={
+      Object {
+        "root": "avatar__root",
+      }
+    }
+  />
+  <div
+    className="body"
+  >
+    <div />
+  </div>
+</ListItem>
+`;

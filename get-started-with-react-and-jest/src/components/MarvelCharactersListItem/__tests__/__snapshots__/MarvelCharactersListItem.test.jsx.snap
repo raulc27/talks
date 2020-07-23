@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarvelCharactersListItem /> Tests should render correctly 1`] = `
+<ListItemWithAvatar
+  avatarUrl="character thumb"
+  style={
+    Object {
+      "avatar__root": "avatar__root",
+    }
+  }
+>
+  <p>
+    character name
+  </p>
+  <p />
+</ListItemWithAvatar>
+`;
+
+exports[`<MarvelCharactersListItem /> Tests should render correctly with all props 1`] = `
+<ListItemWithAvatar
+  avatarUrl="character thumb"
+  style={
+    Object {
+      "avatar__root": "avatar__root",
+    }
+  }
+>
+  <p>
+    character name
+  </p>
+  <p>
+    character desc
+  </p>
+</ListItemWithAvatar>
+`;

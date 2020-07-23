@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`marvel/marvelActions.js Tests should create completeFetchCharacters action object correctly 1`] = `
+Object {
+  "type": "marvel/FETCH_CHARACTERS_REQUESTED",
+}
+`;
+
+exports[`marvel/marvelActions.js Tests should create completeFetchCharacters action object correctly 2`] = `
+Object {
+  "payload": Object {
+    "error": Object {
+      "type": "Error",
+    },
+  },
+  "type": "marvel/FETCH_CHARACTERS_FAILED",
+}
+`;
+
+exports[`marvel/marvelActions.js Tests should create fetchCharacters action object correctly 1`] = `
+Object {
+  "type": "marvel/FETCH_CHARACTERS_REQUESTED",
+}
+`;

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> Tests should render correctly 1`] = `
+<li
+  className="root "
+>
+  <div
+    className="container"
+  >
+    <div>
+      list item
+    </div>
+  </div>
+</li>
+`;
+
+exports[`<ListItem /> Tests should render correctly with all props 1`] = `
+<li
+  className="root clickable"
+  onClick={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <div>
+      list item
+    </div>
+  </div>
+</li>
+`;

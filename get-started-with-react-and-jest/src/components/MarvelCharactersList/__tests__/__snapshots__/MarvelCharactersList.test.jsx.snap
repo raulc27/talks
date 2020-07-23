@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MarvelCharactersList /> Tests should render correctly 1`] = `
+<Fragment>
+  <List
+    style={null}
+  >
+    <MarvelCharactersListItem
+      description="character desc"
+      key="1"
+      name="character name"
+      thumbnail="undefined.undefined"
+    />
+  </List>
+</Fragment>
+`;
+
+exports[`<MarvelCharactersList /> Tests should render correctly when is loading 1`] = `
+<Fragment>
+  <Loading
+    color="#999"
+    delay={0}
+    height={64}
+    type="spin"
+    width={64}
+  />
+</Fragment>
+`;

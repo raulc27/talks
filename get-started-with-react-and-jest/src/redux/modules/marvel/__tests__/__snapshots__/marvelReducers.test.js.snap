@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`marvel/marvelReducers.js Tests should save state correctly with completeFetchCharacters action 1`] = `
+Immutable.Map {
+  "isFetchingCharacters": false,
+  "fetchError": Immutable.Map {},
+  "characters": Immutable.List [
+    Immutable.Map {
+      "id": 1,
+      "name": "character name",
+    },
+  ],
+}
+`;
+
+exports[`marvel/marvelReducers.js Tests should save state correctly with failFetchCharacters action 1`] = `
+Immutable.Map {
+  "isFetchingCharacters": false,
+  "fetchError": Immutable.Map {
+    "type": "Error",
+  },
+  "characters": Immutable.List [],
+}
+`;
+
+exports[`marvel/marvelReducers.js Tests should save state correctly with fetchCharacters action 1`] = `
+Immutable.Map {
+  "isFetchingCharacters": true,
+  "fetchError": Immutable.Map {},
+  "characters": Immutable.List [],
+}
+`;
